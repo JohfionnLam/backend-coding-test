@@ -1,0 +1,21 @@
+{
+  "name": "backend-coding-test",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Authenticated Apollo GraphQL API backed by the supplied JSON files.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@apollo/server": "^5.0.0",
+    "graphql": "^16.11.0"
+  },
+  "overrides": {
+    "@graphql-tools/utils": "12.0.2"
+  }
+}
